@@ -1,0 +1,59 @@
+SENIN, 18 Juli 2022
+========================================
+Buat folder dahulu
+VSCODE > Terminal
+
+Membuat username global
+git config --global user.name "fauzan007"
+
+Membuat email global
+git config --global user.email "fauzanalghifari007@gmail.com"
+
+Deklarasi
+git init
+
+Membuat username local
+git config --local user.name "admin01"
+
+Membuat email local
+git config --local user.email "admin01@gmail.com"
+
+Menampilkan seluruh username dan email global maupun local
+git config --list
+
+Menambahkan satu file
+git add satu.txt
+
+Menambahkan semua file
+git add .
+
+Keterangan kondisi file:
+U => Belum ditambahkan ke dalam repository
+A => Sudah ditambahkan ke dalam repository
+"kosong"  => Sudah di commit
+M => File sudah dicommit tapi diedit
+
+Memberikan check poin pada file
+git commit -m "Keterangan pesan"
+
+Melihat aktivitas git secara detail
+git log
+
+Melihat aktivitas git secara singkat
+git log --oneline
+
+Hapus username local
+git config --local --unset user.name "nama"
+
+Hapus email local
+git config --local --unset user.email "email"
+
+File edit langsung commit
+git commit -am "ketik pesan"
+
+Mengembalikan commit yang pertama (sementara)
+git checkout nomor commit
+misal => git checkout d825f664c171c......
+
+Mengembalikan yang terbaru kembali (sementara)
+git switch -

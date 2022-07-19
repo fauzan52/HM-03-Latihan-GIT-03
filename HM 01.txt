@@ -1,0 +1,25 @@
+Membuat user dan email global
+git config --global user.name "fauzan007"
+git config --global user.email "fauzan@gmail.com"
+
+Deklarasi, add, commit
+git init
+git add satu.txt
+git commit -m "Commit pertama"
+
+Membuat user dan email local
+git config --local user.name "localhost"
+git config --local user.email "local@gmail.com"
+git add dua.txt
+git commit -m "Commit kedua oleh localhost"
+
+Melihat aktivitas log
+git log
+
+git add tiga.txt
+git commit -m "commit ketiga"git add tiga.txt
+git commit -m "commit ketiga"
+git log
+
+Update file lalu commit semua
+git commit -am "commit update"
