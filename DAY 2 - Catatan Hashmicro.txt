@@ -1,0 +1,27 @@
+Selasa, 19 Juli 2022 (Sementara)
+
+Memberikan keterangan update
+git diff 86487b475e07905......
+
+Membuat cabang
+git branch namacabang01
+Lalu membuat tambahkan file baru
+git add .
+git commit -m "Ketik pesan"
+
+Melihat status ada di master atau cabang mana
+git status
+git branch
+
+Mengembalikan update sebelumnya pada master
+git switch master
+
+Pindah branch 
+git checkout master
+git checkout namacabang01
+
+Melihat daftar cabang
+git branch
+
+Merge (menggabungkan)
+git merge namacabang01

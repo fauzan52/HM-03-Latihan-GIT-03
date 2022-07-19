@@ -1,0 +1,15 @@
+git checkout b3541231.....
+git branch feature01
+git checkout feature01
+buat file baru
+git add .
+git commit -m "Feature 01 commit 1"
+
+git checkout master
+
+git checkout c3541231.....
+git branch feature02
+git checkout feature02
+buat file baru
+git add .
+git commit -m "Feature 01 commit 1"
